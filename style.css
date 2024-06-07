@@ -1,0 +1,45 @@
+* {
+    border: red solid 2px;
+}
+
+body {
+    background-color: rgb(107, 116, 113);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.phone-frame {
+    position: relative;
+    width: 400px; /* Adjust to the size of your phone frame image */
+    height: 800px; /* Adjust to the size of your phone frame image */
+    background: url('/home/kmiraie/Downloads/phone frame.jpg') no-repeat center center; /* Ensure this path is correct */
+    background-size: cover;
+}
+
+.food {
+    width: 90%;
+    height: auto;
+    position: absolute;
+    top: 20%; /* Adjust to position the image within the phone frame */
+    left: 5%;  /* Adjust to position the image within the phone frame */
+}
+
+h1, ul {
+    position: absolute;
+    top: 10%; /* Adjust to position the text within the phone frame */
+    left: 5%; /* Adjust to position the text within the phone frame */
+    width: 90%;
+    text-align: center;
+    color: black; /* Ensure the text is visible against the phone frame */
+    margin: 0;
+}
+
+ul {
+    top: 60%; /* Adjust to position the list within the phone frame */
+    padding: 0;
+    list-style: none;
+}
